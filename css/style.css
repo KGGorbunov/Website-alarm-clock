@@ -1,0 +1,61 @@
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    background: rgb(34,193,195);
+    background: linear-gradient(342deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    min-width: 600px;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+	height: 100px;
+}
+
+.logo {
+    height: 100%;
+    width: 600px;
+    margin: 0 auto;  
+    position: relative;
+}
+
+.text_logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 26px;
+    letter-spacing: 0.8px;
+    word-spacing: 0px;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgb(81, 110, 13);
+}
+
+.content {
+    position: relative;
+}
+
+.clock_container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px; 
+    height: 500px;
+    background: #83A7C9;
+    border-radius: 50%;
+
+}
+
+footer {
+    height: 20px;
+}
