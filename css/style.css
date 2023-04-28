@@ -12,23 +12,20 @@ body {
 }
 
 header {
-	height: 100px;
+    min-height: 50px;
+	height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
-    width: 600px;
-    margin: 0 auto;  
-    position: relative;
-}
-
-.text_logo {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-family: "Courier New", Courier, monospace;
-    font-size: 26px;
+    font-size: 4vw;
     letter-spacing: 0.8px;
     word-spacing: 0px;
     color: #ffffff;
@@ -41,19 +38,20 @@ header {
 }
 
 .content {
-    position: relative;
 }
 
-.clock_container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 500px; 
-    height: 500px;
-    background: #83A7C9;
-    border-radius: 50%;
+.clock {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.content_clock {
+}
+
+.settings {
+    height: 30%;
 }
 
 footer {
